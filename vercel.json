@@ -12,7 +12,7 @@
   "rewrites": [
     {
       "source": "/api/:match*",
-      "destination": "https://163api.qijieya.cn/:match*"
+      "destination": "https://your-netease-api.example.com/:match*"
     }
   ]
 }
