@@ -12,7 +12,7 @@
   "rewrites": [
     {
       "source": "/api/:match*",
-      "destination": "https://ncm.zhenxin.me/:match*"
+      "destination": "https://music.mcseekeri.com/:match*"
     }
   ]
 }
