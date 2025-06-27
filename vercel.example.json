@@ -1,18 +1,1 @@
-{
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist",
-        "buildCommand": "NODE_OPTIONS='--openssl-legacy-provider' npm run build"
-      }
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/api/:match*",
-      "destination": "https://netease-cloud-music-api-blue-tau.vercel.app/:match*"
-    }
-  ]
-}
+
