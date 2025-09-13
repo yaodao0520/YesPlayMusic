@@ -23,7 +23,7 @@
   },
   "main": "background.js",
   "engines": {
-    "node": "16.x || 18.x"
+    "node": "16.x || 22"
   },
   
   "dependencies": {
